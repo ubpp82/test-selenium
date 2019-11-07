@@ -8,6 +8,6 @@ var driver = new webdriver.Builder()
   .withCapabilities(webdriver.Capabilities.chrome())
   .build();
 
-var url = "https://www.google.com/";
+var url = "https://www.google.com";
 driver.get(url);
 driver.quit();
